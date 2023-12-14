@@ -25,7 +25,7 @@ public class apiClient {
                 .fromUriString("https://openapi.naver.com")
                 .path("/v1/search/local.json")
                 .queryParam("query", "영통" + query)
-                .queryParam("display", 5)
+                .queryParam("display", 1)
                 .build()
                 .encode()
                 .toUri();
